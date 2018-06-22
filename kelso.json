@@ -1,0 +1,8 @@
+[{"user":"mburns",
+"name":{"firstname":"charles","lastname":"burns"},
+"networth":"$1,000,000"
+},
+{"user":"homer",
+"name":{"firstname":"homer","lastname":"simpson"},
+"networth":"one donut"
+}]
