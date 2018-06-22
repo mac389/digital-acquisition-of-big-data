@@ -1,0 +1,45 @@
+# Shulamite version, fixed for Python 3
+import urllib.request
+from http.cookiejar import CookieJar
+from bs4 import BeautifulSoup
+# you could stick urls into a forloop and go through multiple urls
+# crawlers are code that go over multiple urls
+# good crawlers are called spiders
+url = "https://www.yellowcabnyctaxi.com/"
+
+'''
+The http.cookiejar module defines classes for automatic handling of HTTP cookies. 
+It is useful for accessing web sites that require small pieces of data – cookies – 
+to be set on the client machine by an HTTP response from a web server, and then returned 
+to the server in later HTTP requests.
+'''
+
+cj = CookieJar()
+opener = urllib.request.build_opener(urllib.request.HTTPCookieProcessor(cj))
+page = opener.open(url)
+# BeautifulSoup is a parser
+soup = BeautifulSoup(page,"lxml") # easiest way to go through and pick out tags
+
+'''
+# syntax example of easy things to miss
+
+eg = "bob"
+eg.upper() # parentheses means the application of the function
+eg.upper # no parentheses means the function itself
+
+# you would think you can do this, but this results in an error:
+lst = "smith"
+'{:s} {:s}'.format(eg.upper, lst.upper)
+
+# this is because there are no parentheses to indicate the application of the function
+lst = "smith"
+'{:s} {:s}'.format(eg.upper(), lst.upper())
+
+# the function isn't really a string, but str() converts it into a string and passes it on
+
+str(lst.upper)
+'{:s} {:s}'.format(str(eg.upper), str(lst.upper))
+
+'''
+
+
