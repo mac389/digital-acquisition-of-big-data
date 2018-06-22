@@ -8,13 +8,18 @@ x = json.loads(data[0]) #convert string to dict
 
 def has_geographic_information(tweet_as_dict, 
         fields_with_geo_information=["geo","place","coordinates"]):
-    print(tweet_as_dict)
-    return tweet_as_dict["geo"] & tweet_as_dict["place"] & tweet_as_dict["coordinates"]
+    '''
+    print(type(tweet_as_dict))
+    print(tweet_as_dict["geo"])
+    print(tweet_as_dict["place"])
+    print(tweet_as_dict["coordinates"])
+    '''
+    return bool(tweet_as_dict["geo"]) & bool(tweet_as_dict["place"]) & bool(tweet_as_dict["coordinates"])
 
 geo_counter = 0 
 no_geo_counter = 0
 for tweet in data:
-    if has_geographic_information(tweet):
+    if has_geographic_information(json.loads(tweet)):
         geo_counter +=1
     else:
         no_geo_counter +=1
