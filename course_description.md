@@ -21,6 +21,8 @@ Participants should have their own laptops.
 # Readings (after class)
 
 # Instructor 
-### (Michael Chary, MD, PhD)
+### Michael Chary, MD, PhD
 
-Dr. Michael Chary received his MD and PhD (computational neuroscience, electrophysiology) from the Icahn School of Medicine at Mount Sinai. He is a Fellow at the Harvard Medical Toxicology Fellowship. Michael uses computational linguistics and applied mathematics to analyze social media for public health research and drug discovery. His group, ToxTweet, was the first to demonstrate that the geographic distribution of recreational drug use could be accurately estimated from Twitter and the dosage, signs and symptoms of opioid overdose inferred from YouTube comments. This is the course's fourth year. 
+Michael Chary received his MD and PhD (computational neuroscience, electrophysiology) from the Icahn School of Medicine at Mount Sinai. He completed residency training in Emergency Medicine at NewYork Presbyterian\Queens. He is now a Fellow at the Harvard Medical Toxicology Fellowship. 
+
+Michael uses computational linguistics and applied mathematics to analyze social media for public health research and drug discovery. His group, ToxTweet, was the first to demonstrate that the geographic distribution of recreational drug use could be accurately estimated from Twitter and the dosage, signs and symptoms of opioid overdose inferred from YouTube comments. This is the course's fourth year. 
