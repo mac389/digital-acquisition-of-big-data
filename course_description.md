@@ -17,6 +17,7 @@ By the end of the course, participants will be able to:
 Participants should have their own laptops.
 
 # Readings (before class)
+None
 
 # Readings (after class)
 
