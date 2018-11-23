@@ -14,7 +14,7 @@ By the end of the course, participants will be able to:
 
 # Prerequisites
 
-Participants should have their own laptops.
+Participants should have bring own laptops.
 
 # Readings (before class)
 None
