@@ -15,7 +15,29 @@
 
 
 
-2. What is an Application Programming Interface (API)?
+### What is an Application Programming Interface (API)?
+
+ An application programming interface refers to the protocols programs use to exchange data. 
+ 
+ ```
+from twython import Twython  
+import json
+
+# Load credentials from json file
+with open("twitter_credentials.json", "r") as file:  
+    creds = json.load(file)
+
+# Instantiate an object
+python_tweets = Twython(creds['CONSUMER_KEY'], creds['CONSUMER_SECRET'])
+
+# Create our query
+query = {'q': 'learn python',  
+        'result_type': 'popular',
+        'count': 10,
+        'lang': 'en',
+        }
+ ```
+
 3. How do computers send data to each other? Including XML vs JSON and metadata
 4. What's underneath the hood of a Twitter page?
 5. Tension between syndromic surveillance and business applications
@@ -24,7 +46,7 @@
 ## Acquiring JSON Data (Day 2)
 [Back to Table of Contents](#toc)
 
-1. Streaming versus Historical Data
+1. Streaming versus Historical Data [Twitter package](https://stackabuse.com/accessing-the-twitter-api-with-python/)
 2. The `json` package
 3. Good code is the same thing as readable code
 4. Storage
@@ -43,7 +65,25 @@
 ## How does this fit with what I usually do? (Day 4)
 [Back to Table of Contents](#toc)
 
-1. Converting Internet data to CSV using  `csv` or DataFrames using  `pandas` 
+### Converting Internet data to CSV using  `csv` or DataFrames using  `pandas` 
+
+```
+import pandas as pd
+
+# Search tweets
+dict_ = {'user': [], 'date': [], 'text': [], 'favorite_count': []}  
+for status in python_tweets.search(**query)['statuses']:  
+    dict_['user'].append(status['user']['screen_name'])
+    dict_['date'].append(status['created_at'])
+    dict_['text'].append(status['text'])
+    dict_['favorite_count'].append(status['favorite_count'])
+
+# Structure data in a pandas DataFrame for easier manipulation
+df = pd.DataFrame(dict_)  
+df.sort_values(by='favorite_count', inplace=True, ascending=False)  
+df.head(5)
+```
+
 2. Graphing with `seaborn`, `matplotlib`
 3. What are binary files? 
 4. What is `MongoDB`, `MySQL`?
