@@ -1,14 +1,9 @@
-# epic-2018
+# EPIC: Digital Acquisition of Big Data 2020
 
-<div id=#toc>
+<div id="#toc">
 ## Table of Contents
-| | | 
-|--:|:--|
-|[Day 1](#day-1)| Subject|
-|[Day 2](#day-2)| Subject|
-|[Day 3](#day-3)| s |
-|[Day 4](#day-4)| Subject |
-|[Day 5](#day-5)| Subject |
+ [Day 1: Setting the Stage](#day-1) **|** [Day 2: JSON Data](#day-2) **|** [Day 3: XML Data](#day-3) **|**
+[Day 4: The Rest of the Pipeline](#day-4) **|** [Day 5](#day-5) 
 
 
 <div id="day-1"/>
@@ -16,22 +11,32 @@
 
 1. Python & Sublime Text
 2. What is an Application Programming Interface (API)?
-3. How do computers send data to each other?
+3. How do computers send data to each other? Including XML vs JSON and metadata
 4. What's underneath the hood of a Twitter page?
 5. Tension between syndromic surveillance and business applications
 
 
 <div id="day-2"/>
-## Introduction (Day 1)
+## Acquiring JSON Data (Day 2)
+1. Streaming versus Historical Data
+2. The `json` package
+3. Good code is the same thing as readable code
+4. Storage
+5. Project Management, including How do I hand off a prototype
+
 
 <div id="day-3"/>
-## Introduction (Day 1)
+## Acquiring XML Data (Day 3)
+2. Who still uses XML?
+3. Structure of XML data.
+4. `BeautifulSoup` and `lxml`
 
 <div id="day-4"/>
-## Introduction (Day 1)
+## How does this fit with what I usually do? (Day 4)
+1. Converting Internet data to CSV or something like that `csv`, `pandas` 
 
 <div id="day-5"/>
-## Introduction (Day 1)
+## Introduction (Day 5)
 
 
 
