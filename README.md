@@ -12,10 +12,13 @@
 
 
 <div id="day-1"/>
-## Introduction (Day 1)
+## Setting the Stage (Day 1)
 
-1. Setting up the environment
-2. 
+1. Python & Sublime Text
+2. What is an Application Programming Interface (API)?
+3. How do computers send data to each other?
+4. What's underneath the hood of a Twitter page?
+5. Tension between syndromic surveillance and business applications
 
 
 <div id="day-2"/>
