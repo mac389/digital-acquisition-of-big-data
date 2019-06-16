@@ -8,6 +8,7 @@
 
 <div id="day-1"/>
 ## Setting the Stage (Day 1)
+[Back to Table of Contents](#toc)
 
 1. Python & Sublime Text
 2. What is an Application Programming Interface (API)?
@@ -18,6 +19,8 @@
 
 <div id="day-2"/>
 ## Acquiring JSON Data (Day 2)
+[Back to Table of Contents](#toc)
+
 1. Streaming versus Historical Data
 2. The `json` package
 3. Good code is the same thing as readable code
@@ -27,21 +30,30 @@
 
 <div id="day-3"/>
 ## Acquiring XML Data (Day 3)
+[Back to Table of Contents](#toc)
+
 2. Who still uses XML?
 3. Structure of XML data.
 4. `BeautifulSoup` and `lxml`
 
 <div id="day-4"/>
 ## How does this fit with what I usually do? (Day 4)
-1. Converting Internet data to CSV or something like that using  `csv`, `pandas` 
+[Back to Table of Contents](#toc)
+
+1. Converting Internet data to CSV using  `csv` or DataFrames using  `pandas` 
 2. Graphing with `seaborn`, `matplotlib`
 3. What are binary files? 
 4. What is `MongoDB`, `MySQL`?
 
 <div id="day-5"/>
 ## Where do I go from here? (Day 5)
+[Back to Table of Contents](#toc)
+
 1. Study Design
-2. 
+2. What Journals?
+3. What Conferences?
+4. What Grants?
+5. What Collaborators?
 
 
 
