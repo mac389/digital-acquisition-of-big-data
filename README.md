@@ -1,9 +1,7 @@
-# EPIC: Digital Acquisition of Big Data 2020
-
 <div id="#toc"/>
 ## Table of Contents
  [Day 1: Setting the Stage](#day-1) **|** [Day 2: JSON Data](#day-2) **|** [Day 3: XML Data](#day-3) **|**
-[Day 4: The Rest of the Pipeline](#day-4) **|** [Day 5](#day-5) 
+[Day 4: The Rest of the Pipeline](#day-4) **|** [Day 5: Next Steps](#day-5) 
 
 
 <div id="day-1"/>
@@ -54,8 +52,6 @@
 3. What Conferences?
 4. What Grants?
 5. What Collaborators?
-
-
 
 
 
