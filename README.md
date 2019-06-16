@@ -1,9 +1,13 @@
 <div id="#toc"/>
 ## Table of Contents
 
- [Day 1: Setting the Stage](#day-1) **|** [Day 2: JSON Data](#day-2) **|** [Day 3: XML Data](#day-3) **|** [Day 4: The Rest of the Pipeline](#day-4) **|** [Day 5: Next Steps](#day-5) 
+ [Day 1: Setting the Stage](#day-1)<br>
+ [Day 2: JSON Data](#day-2)<br>
+ [Day 3: XML Data](#day-3)<br>
+ [Day 4: The Rest of the Pipeline](#day-4)<br>
+ [Day 5: Next Steps](#day-5)<br> 
 
-
+--
 <div id="day-1"/>
 ## Setting the Stage (Day 1)
 [Back to Table of Contents](#toc)
@@ -78,7 +82,12 @@ query = {'q': 'learn python',
 ```
 
 
-5. Tension between syndromic surveillance and business applications
+### Tension between syndromic surveillance and business applications
+
+ Twitter provides varying levels of access depending on how much one can pay. Completely free access provides a 1% random sample of streaming tweets. The sampling methodology is not clear. It is for example not known how long one must weight in between sampling for the two samples to be independent. 
+ 
+  Twitter's approach is not unique. Social media web sites (and their APIs) are meant to let other applications access current data. Sampling is provided to allow devices with low bandwidth to recieve data, not to support statistical inference. 
+
 
 
 ## Acquiring JSON Data (Day 2)
