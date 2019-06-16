@@ -11,7 +11,7 @@
 
 ### [Python](https://www.python.org/) & [Sublime Text](https://www.sublimetext.com/)
 
- Python is a programming language. Idiomated Python reads close to English ([style guide]("https://docs.python-guide.org/writing/style/")).
+ Python is a programming language. Idiomatic Python reads close to English ([style guide]("https://docs.python-guide.org/writing/style/")).
 
 
 
@@ -38,8 +38,47 @@ query = {'q': 'learn python',
         }
  ```
 
-3. How do computers send data to each other? Including XML vs JSON and metadata
-4. What's underneath the hood of a Twitter page?
+### What's underneath the hood of a Twitter page?
+
+  Twitter's API provides tweets as JSON objects ([specification](https://developer.twitter.com/en/docs/tweets/data-dictionary/overview/intro-to-tweet-json.html))
+
+```
+{
+	"created_at": "Thu May 10 17:41:57 +0000 2018",
+	"id_str": "994633657141813248",
+	"text": "Just another Extended Tweet with more than 140 characters, generated as a documentation example, showing that [\"tru… https://t.co/U7Se4NM7Eu",
+	"display_text_range": [0, 140],
+	"truncated": true,
+	"user": {
+		"id_str": "944480690",
+		"screen_name": "FloodSocial"
+	},
+	"extended_tweet": {
+		"full_text": "Just another Extended Tweet with more than 140 characters, generated as a documentation example, showing that [\"truncated\": true] and the presence of an \"extended_tweet\" object with complete text and \"entities\" #documentation #parsingJSON #GeoTagged https://t.co/e9yhQTJSIA",
+		"display_text_range": [0, 249],
+		"entities": {
+			"hashtags": [{
+				"text": "documentation",
+				"indices": [211, 225]
+			}, {
+				"text": "parsingJSON",
+				"indices": [226, 238]
+			}, {
+				"text": "GeoTagged",
+				"indices": [239, 249]
+			}]
+		}
+
+	},
+	"entities": {
+		"hashtags": []
+	}
+}
+
+
+```
+
+
 5. Tension between syndromic surveillance and business applications
 
 
