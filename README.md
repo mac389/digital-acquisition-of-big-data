@@ -1,6 +1,6 @@
 # EPIC: Digital Acquisition of Big Data 2020
 
-<div id="#toc">
+<div id="#toc"/>
 ## Table of Contents
  [Day 1: Setting the Stage](#day-1) **|** [Day 2: JSON Data](#day-2) **|** [Day 3: XML Data](#day-3) **|**
 [Day 4: The Rest of the Pipeline](#day-4) **|** [Day 5](#day-5) 
@@ -33,10 +33,15 @@
 
 <div id="day-4"/>
 ## How does this fit with what I usually do? (Day 4)
-1. Converting Internet data to CSV or something like that `csv`, `pandas` 
+1. Converting Internet data to CSV or something like that using  `csv`, `pandas` 
+2. Graphing with `seaborn`, `matplotlib`
+3. What are binary files? 
+4. What is `MongoDB`, `MySQL`?
 
 <div id="day-5"/>
-## Introduction (Day 5)
+## Where do I go from here? (Day 5)
+1. Study Design
+2. 
 
 
 
