@@ -1,5 +1,6 @@
 <div id="#toc"/>
 ## Table of Contents
+
  [Day 1: Setting the Stage](#day-1) **|** [Day 2: JSON Data](#day-2) **|** [Day 3: XML Data](#day-3) **|**
 [Day 4: The Rest of the Pipeline](#day-4) **|** [Day 5: Next Steps](#day-5) 
 
@@ -8,14 +9,18 @@
 ## Setting the Stage (Day 1)
 [Back to Table of Contents](#toc)
 
-1. Python & Sublime Text
+### [Python](https://www.python.org/) & [Sublime Text](https://www.sublimetext.com/)
+
+ Python is a programming language. Idiomated Python reads close to English ([style guide]("https://docs.python-guide.org/writing/style/")).
+
+
+
 2. What is an Application Programming Interface (API)?
 3. How do computers send data to each other? Including XML vs JSON and metadata
 4. What's underneath the hood of a Twitter page?
 5. Tension between syndromic surveillance and business applications
 
 
-<div id="day-2"/>
 ## Acquiring JSON Data (Day 2)
 [Back to Table of Contents](#toc)
 
