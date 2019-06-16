@@ -1,10 +1,10 @@
 theme: jekyll-theme-minimal
 title: Digitial Acquisition of Big Data
 description: 
- - title: Table of Contents
+- title: Table of Contents
  subfolderitems:
- - Day 1
- - Day 2
- - Day 3
- - Day 4
- - Day 5
+  - Day 1
+  - Day 2
+  - Day 3
+  - Day 4
+  - Day 5
