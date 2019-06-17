@@ -1,8 +1,13 @@
 <div id="toc"/>
 ## Table of Contents
 
- [Day 1: Setting the Stage](#day-1)<br>
- [Day 2: JSON Data](#day-2)<br>
+ [Day 1: Setting the Stage](#day-1)
+ 
+  - [Social Media and Public Health Research](#some-and-phr)
+  - [Python & Sublime Text](#python-and-sublime-text)
+  - [What is an Application Programming Interface?](#what-is-an-api)
+ 
+[Day 2: JSON Data](#day-2)<br>
  [Day 3: XML Data](#day-3)<br>
  [Day 4: The Rest of the Pipeline](#day-4)<br>
  [Day 5: Next Steps](#day-5)<br> 
@@ -15,11 +20,37 @@
 ## Setting the Stage (Day 1)
 [Back to Table of Contents](#toc)
 
-### Be A Hacker
+<div id="some-and-phr"/>
+### Social Media and Public Health Research
 
- > an enthusiastic and skillful computer programmer or user.
+   Social media provide a window into trends in the general population in near real-time. They also provide a means for outreach and to assess the effectiveness of interventions. Analyses of social media have provided insights into the dynamics of drug use[^chary1], the response the natural disasters[^twittertsunami], the dynamics of foodborne illnesses[^chicagofbi]<sup>,</sup>[^jamafbi]<sup>,</sup>[^nemesisfbi] and the dynamics of infectious diseases[^twitterflu]. 
+   
+   The infrastructure created for social media was meant to share data reliably in the moment, not to support research. This has led to irreproducible results[^googlefluerror] and inference of causation with implausible conceptual models[^skepticsome]. Digital epidemiology holds promise for increasing the reach and rapidity of traditional means of syndromic surveaillance[^salatheperspective]<sup>,</sup>[^asianperspective]
+   
+   More plausible models and robuse findings could arise if public health researchers could be involved earlier the process of acquiring data from social media. This seminar aims to give public health researchers the tools to develop prototype data analysis pipelines from social media. 
+   
+[^chary1]: Chary, M., Genes, N., Giraud-Carrier, C., Hanson, C., Nelson, L.S. and Manini, A.F., 2017. Epidemiology from tweets: estimating misuse of prescription opioids in the USA from social media. Journal of Medical Toxicology, 13(4), pp.278-286.
+
+[^twittertsunami]: Murakami, A. and Nasukawa, T., 2012, April. Tweeting about the tsunami?: mining twitter for information on the tohoku earthquake and tsunami. In Proceedings of the 21st International Conference on World Wide Web (pp. 709-710). ACM.
+
+[^chicagofbi]: Harris, J.K., Mansour, R., Choucair, B., Olson, J., Nissen, C. and Bhatt, J., 2014. Health department use of social media to identify foodborne illness—Chicago, Illinois, 2013–2014. MMWR. Morbidity and mortality weekly report, 63(32), p.681.
+
+[^jamafbi]: Kuehn, B.M., 2014. Agencies use social media to track foodborne illness. JAMA, 312(2), pp.117-118.
+
+[^nemesisfbi]: Sadilek, A., Kautz, H., DiPrete, L., Labus, B., Portman, E., Teitel, J. and Silenzio, V., 2016, March. Deploying nEmesis: Preventing foodborne illness by data mining social media. In Twenty-Eighth IAAI Conference.
+
+[^twitterflu]: Aramaki, E., Maskawa, S. and Morita, M., 2011, July. Twitter catches the flu: detecting influenza epidemics using Twitter. In Proceedings of the conference on empirical methods in natural language processing (pp. 1568-1576). Association for Computational Linguistics.
+
+[^googlefluerror]: Butler, Declan. "When Google got flu wrong." Nature News 494, no. 7436 (2013): 155.
+
+[^skepticsome]: Rowland, K., 2012. Epidemiologists put social media in the spotlight. Nature.
+
+[^salatheperspective]: Salathe, M., Bengtsson, L., Bodnar, T.J., Brewer, D.D., Brownstein, J.S., Buckee, C., Campbell, E.M., Cattuto, C., Khandelwal, S., Mabry, P.L. and Vespignani, A., 2012. Digital epidemiology. PLoS computational biology, 8(7), p.e1002616.
+
+[^asianperspective]: Fung, I.C.H., Tse, Z.T.H. and Fu, K.W., 2015. The use of social media in public health surveillance. Western Pacific surveillance and response journal: WPSAR, 6(2), p.3.
 
 
+<div id="python-and-sublime-text"/>
 ### [Python](https://www.python.org/) & [Sublime Text](https://www.sublimetext.com/)
 
  Python is a programming language. Idiomatic Python reads close to English ([style guide]("https://docs.python-guide.org/writing/style/")).
@@ -29,7 +60,7 @@
  ```
 
 
-
+<div id="what-is-an-api"/>
 ### What is an Application Programming Interface (API)?
 
  An application programming interface refers to the protocols programs use to exchange data. An API allows a data source (*e.g* Twitter) to serve data to a user. Those data are available to a user after logging in. Logging in allows the data source to track and regulate the distribution of its data. 
@@ -125,8 +156,7 @@ The code block above demonstrates how to access Twitter's api via the *twython* 
 
 1. Streaming versus Historical Data [Twitter package](https://stackabuse.com/accessing-the-twitter-api-with-python/)
 2. The `json` package
-3. Good code is the same thing as readable code
-4. Storage
+4. Storage (there's an API for that)
 5. Project Management, including How do I hand off a prototype
 
 
