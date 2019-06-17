@@ -103,6 +103,11 @@ The code block above demonstrates how to access Twitter's api via the *twython* 
 
 ```
 
+| Web site | Link to Python wrapper|
+|--:|:--|
+| Facebook | [SDK](https://facebook-sdk.readthedocs.io/en/latest/) |
+| Instagram | [Developer Library](https://www.instagram.com/developer/libraries/) | 
+| YouTube | [Developer Guide](https://developers.google.com/youtube/v3/quickstart/python) | 
 
 ### Delivering Data verus Syndromic Surveillance
 
