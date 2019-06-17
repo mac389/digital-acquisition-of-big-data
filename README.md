@@ -8,6 +8,9 @@
  [Day 5: Next Steps](#day-5)<br> 
 
 --
+
+[Prior Literature](./prior-literature.md)
+
 <div id="day-1"/>
 ## Setting the Stage (Day 1)
 [Back to Table of Contents](#toc)
@@ -15,6 +18,12 @@
 ### [Python](https://www.python.org/) & [Sublime Text](https://www.sublimetext.com/)
 
  Python is a programming language. Idiomatic Python reads close to English ([style guide]("https://docs.python-guide.org/writing/style/")).
+ 
+ ```
+ print "Hello World"
+ ```
+ 
+ 
 
 
 
@@ -41,7 +50,9 @@ query = {'q': 'learn python',
         }
  ```
 
+An API allows a data source (*e.g* Twitter) to serve data to a user. Those data are available to a user after logging in. Logging in allows the data source to track and regulate the distribution of its data. 
 
+Most APIs require two keys to login. Roughly speaking, one key identifies yourself. The second confirms your identity. ([A deeper explanation](https://stackoverflow.com/questions/11557985/why-use-an-api-key-and-secret)) 
 
 ### What's underneath the hood of a Twitter page?
 
