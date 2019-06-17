@@ -25,18 +25,21 @@
  Python is a programming language. Idiomatic Python reads close to English ([style guide]("https://docs.python-guide.org/writing/style/")).
  
  ```
- print "Hello World"
+ print "Hello World" 
  ```
- 
- 
 
 
 
 ### What is an Application Programming Interface (API)?
 
- An application programming interface refers to the protocols programs use to exchange data. 
+ An application programming interface refers to the protocols programs use to exchange data. An API allows a data source (*e.g* Twitter) to serve data to a user. Those data are available to a user after logging in. Logging in allows the data source to track and regulate the distribution of its data. 
+
+Most APIs require two keys to login. Roughly speaking, one key identifies yourself. The second confirms your identity. ([A deeper explanation](https://stackoverflow.com/questions/11557985/why-use-an-api-key-and-secret)) 
  
- ```
+There are many Python wrappers to Twitter's API ([overview](https://stackabuse.com/accessing-the-twitter-api-with-python/)).  
+ 
+ 
+```
 from twython import Twython  
 import json
 
@@ -45,7 +48,7 @@ with open("twitter_credentials.json", "r") as file:
     creds = json.load(file)
 
 # Instantiate an object
-python_tweets = Twython(creds['CONSUMER_KEY'], creds['CONSUMER_SECRET'])
+api = Twython(creds['CONSUMER_KEY'], creds['CONSUMER_SECRET'])
 
 # Create our query
 query = {'q': 'learn python',  
@@ -53,11 +56,12 @@ query = {'q': 'learn python',
         'count': 10,
         'lang': 'en',
         }
- ```
+        
+api.search(q)
+```
 
-An API allows a data source (*e.g* Twitter) to serve data to a user. Those data are available to a user after logging in. Logging in allows the data source to track and regulate the distribution of its data. 
+The code block above demonstrates how to access Twitter's api via the *twython* wrapper. 
 
-Most APIs require two keys to login. Roughly speaking, one key identifies yourself. The second confirms your identity. ([A deeper explanation](https://stackoverflow.com/questions/11557985/why-use-an-api-key-and-secret)) 
 
 ### What's underneath the hood of a Twitter page?
 
