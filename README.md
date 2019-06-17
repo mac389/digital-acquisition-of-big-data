@@ -41,6 +41,8 @@ query = {'q': 'learn python',
         }
  ```
 
+
+
 ### What's underneath the hood of a Twitter page?
 
   Twitter's API provides tweets as JSON objects ([specification](https://developer.twitter.com/en/docs/tweets/data-dictionary/overview/intro-to-tweet-json.html))
@@ -91,11 +93,7 @@ query = {'q': 'learn python',
   **Geographic bias** The geographic information over-represents urban areas[^1]. 
 
 
-[^1]: @inproceedings{hecht2014tale,
-  title={A tale of cities: Urban biases in volunteered geographic information},
-  author={Hecht, Brent and Stephens, Monica},
-  booktitle={Eighth International AAAI Conference on Weblogs and Social Media},
-  year={2014}}
+[^1]: Hecht, B. and Stephens, M., 2014, May. A tale of cities: Urban biases in volunteered geographic information. In Eighth International AAAI Conference on Weblogs and Social Media.
 
 ## Acquiring JSON Data (Day 2)
 [Back to Table of Contents](#toc)
