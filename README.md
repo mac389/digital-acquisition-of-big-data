@@ -15,6 +15,11 @@
 ## Setting the Stage (Day 1)
 [Back to Table of Contents](#toc)
 
+### Be A Hacker
+
+ > an enthusiastic and skillful computer programmer or user.
+
+
 ### [Python](https://www.python.org/) & [Sublime Text](https://www.sublimetext.com/)
 
  Python is a programming language. Idiomatic Python reads close to English ([style guide]("https://docs.python-guide.org/writing/style/")).
