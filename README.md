@@ -1,4 +1,4 @@
-<div id="#toc"/>
+<div id="toc"/>
 ## Table of Contents
 
  [Day 1: Setting the Stage](#day-1)<br>
@@ -82,13 +82,20 @@ query = {'q': 'learn python',
 ```
 
 
-### Tension between syndromic surveillance and business applications
+### Delivering Data verus Syndromic Surveillance
 
  Twitter provides varying levels of access depending on how much one can pay. Completely free access provides a 1% random sample of streaming tweets. The sampling methodology is not clear. It is for example not known how long one must weight in between sampling for the two samples to be independent. 
  
   Twitter's approach is not unique. Social media web sites (and their APIs) are meant to let other applications access current data. Sampling is provided to allow devices with low bandwidth to recieve data, not to support statistical inference. 
+  
+  **Geographic bias** The geographic information over-represents urban areas[^1]. 
 
 
+[^1]: @inproceedings{hecht2014tale,
+  title={A tale of cities: Urban biases in volunteered geographic information},
+  author={Hecht, Brent and Stephens, Monica},
+  booktitle={Eighth International AAAI Conference on Weblogs and Social Media},
+  year={2014}}
 
 ## Acquiring JSON Data (Day 2)
 [Back to Table of Contents](#toc)
